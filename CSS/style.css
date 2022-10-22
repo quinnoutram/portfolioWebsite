@@ -8,6 +8,10 @@ header {
   padding: 2%;
   display: flex;
   justify-content: start;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 5px 5px black;
+  width: 100vw;
 }
 /* hamburger menu animation */
 
@@ -62,4 +66,15 @@ span {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
   top: 20px;
+}
+
+/* main content */
+
+content {
+  display: flex;
+  height: 200vw;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
