@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 2%;
+  display: flex;
+  justify-content: start;
+}
+/* hamburger menu animation */
+
+#hamburger {
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+}
+
+span {
+  position: absolute;
+  background-color: black;
+  margin: 5px;
+  display: block;
+  height: 7px;
+  width: 40px;
+  border-radius: 15px;
+  opacity: .8;
+  transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+}
+
+#top {
+  top: 10px;
+}
+
+#middle {
+  top: 20px;
+}
+
+#bottom {
+  top: 30px
+}
+
+#top.active {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  top: 20px;
+}
+
+#middle.active {
+  opacity: 0;
+}
+
+#bottom.active {
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  top: 20px;
+}
