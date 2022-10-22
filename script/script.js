@@ -2,25 +2,27 @@ const hamburg = document.getElementById('hamburger');
 const topBun = document.getElementById('top');
 const middleBun = document.getElementById('middle');
 const bottomBun = document.getElementById('bottom');
-const typing = document.getElementById('landing');
 
 hamburg.addEventListener('click', function(){
   topBun.classList.toggle('active')
   middleBun.classList.toggle('active')
   bottomBun.classList.toggle('active')
 })
+const prompts = ['Hi, My name is Quinn.', 'I am a junior developer.'];
+const speed = 110;
+const pause = 2600; // <--- the longer delay between text direction changes
 
-let i = 0
-let text1 = "Hi! My name is Quinn."
-let text2 = "I am a Developer."
-let speed = 100;
+function typeWriter(i=0, index=1, direction=1) {
+  let typing = prompts[i].slice(0, index);
+  document.querySelector("#landing").textContent = typing;
 
-function typeWriter() {
-  if (i < text1.length) {
-    typing.innerHTML += text1.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed)
+  if (typing.length >= prompts[i].length) { // reverses direction
+    setTimeout(() => typeWriter(i, index-1, -1), pause);
+  } else if (typing.length === 0) { // changes the index of "texts"
+    setTimeout(() => typeWriter((i+1) % prompts.length), speed);
+  } else { // continue in the current direction
+    setTimeout(() => typeWriter(i, index+direction, direction), speed);
   }
 }
 
-typeWriter()
+typeWriter();
