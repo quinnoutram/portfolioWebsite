@@ -12,7 +12,7 @@ hamburg.addEventListener('click', function(){
 })
 const prompts = ['Hi, my name is Quinn.', 'I am a junior developer.'];
 const speed = 110;
-const pause = 2600; // <--- the longer delay between text direction changes
+const pause = 3200; // <--- the longer delay between text direction changes
 
 function typeWriter(i=0, index=1, direction=1) {
   let typing = prompts[i].slice(0, index);
