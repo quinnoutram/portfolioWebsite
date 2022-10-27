@@ -9,4 +9,4 @@ hamburg.addEventListener('click', function(){
   middleBun.classList.toggle('active')
   bottomBun.classList.toggle('active')
   header.classList.toggle('active')
-})
+}) // <--- This is a hamburger menu toggle causes CSS classes to activate 

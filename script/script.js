@@ -9,7 +9,7 @@ hamburg.addEventListener('click', function(){
   middleBun.classList.toggle('active')
   bottomBun.classList.toggle('active')
   header.classList.toggle('active')
-})
+}) // <--- This is a hamburger menu toggle causes CSS classes to activate 
 const prompts = ['Hi, my name is Quinn.', 'I am a junior developer.'];
 const speed = 110;
 const pause = 3200; // <--- the longer delay between text direction changes
