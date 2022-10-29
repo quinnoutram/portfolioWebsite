@@ -1,6 +1,8 @@
 # My portfolio website 
 
-click to access <a href="">here</a>.
+click to access <a href="https://frabjous-churros-a13eb7.netlify.app">here</a>. 
+
+Alternatively a link you can paste in https://frabjous-churros-a13eb7.netlify.app 
 
 or click to access a presentation showing the build process and design decisions <a href="">here</a>.
 
@@ -24,8 +26,19 @@ Sitemap
   ![Portfolio Website Sitemap](./docs/Sitemap.png)
 
 Screenshots
- - Homepage(Mobile)
- ![Mobile veiw of homepage]
+ - Homepage(Mobile) <br>
+ ![Mobile veiw of homepage](./docs/MobileHome.jpg)
+ - About Me Page(Mobile) <br>
+ ![Mobile veiw of About Me Page](./docs/MobileAboutMe.jpg)
+ - Blog page(Mobile) <br>
+ ![Mobile veiw of Blog page](./docs/MobileBlog.jpg)
+ - Contact page(Mobile) <br>
+ ![Mobile veiw of Contact page](./docs/MobileContact.jpg)
+ - Portfolio page(Mobile) <br>
+ ![Mobile veiw of Portfolio page](./docs/MobileProjects.jpg)
+
+Target Audience:
+ - As this is a portfolio website the primary target is employers and recruiters.
 
 Tech stack:  
  - HTML5
@@ -34,3 +47,4 @@ Tech stack:
  - Git
  - GitHub Pages
 
+If you have any issues with the website please contact me at quinnoutram1@gmail.com
