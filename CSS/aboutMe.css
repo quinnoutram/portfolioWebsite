@@ -215,3 +215,20 @@ p {
     margin-left: 10vw;
   }
 }
+/* Computer media compatability */
+
+@media only screen and (min-width:1000px) {
+  header {
+    margin-top: -4%;
+    height: 15vh;
+  }
+  img {
+    max-width: 20%;
+  }
+  #information {
+    border-radius: 25px;
+  }
+  a:hover {
+    color: grey;
+  }
+}

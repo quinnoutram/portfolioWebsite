@@ -183,3 +183,13 @@ p {
   }
 }
 /* Computer media compatability */
+
+@media only screen and (min-width:1000px) {
+  header {
+    margin-top: -4%;
+    height: 15vh;
+  }
+  a:hover {
+    color: grey;
+  }
+}
