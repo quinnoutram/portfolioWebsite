@@ -133,12 +133,27 @@ content {
 }
 
 .projects {
-  background-color: white;
+  background-color: #80f3ff;
   border: 1px solid black;
   border-radius: 5pt;
-  box-shadow: 0 0 5px 5px black;
-  max-width: 80vw;
+  max-width: 90vw;
   margin: 5%;
+}
+
+.title {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 14pt;
+}
+
+.description {
+  font-size: 10pt;
 }
 
 img {
@@ -146,7 +161,9 @@ img {
   width: fit-content;
   max-width: 100%;
   object-fit: contain;
-  border-bottom: 5px solid black;
+  border-bottom: 1px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 p {
@@ -154,6 +171,12 @@ p {
   text-align: justify;
   font-family: 'Poppins', sans-serif;
 }
+
+.expand {
+  margin: 5px;
+  cursor: pointer;
+}
+/* footer */
 
 footer {
   position: fixed;
@@ -168,3 +191,5 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+
