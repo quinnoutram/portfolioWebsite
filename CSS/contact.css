@@ -181,3 +181,32 @@ footer {
 p {
   font-family: 'Poppins', sans-serif;;;
 }
+
+/* tablet */
+
+@media only screen and (min-width:600px){
+  header {
+    margin-top: -5.5%;
+  }
+  i {
+    font-size: 22pt
+  }
+  li {
+    font-size: 14pt;
+  }
+  .resume {
+    font-size: 22pt;
+  }
+  button {
+    font-size: 16pt;
+  }
+  .sizeUp {
+    font-size: 38pt;
+  }
+  h1 {
+    font-size: 42pt;
+  }
+  .contactInfo {
+    text-align: center;
+  }
+}

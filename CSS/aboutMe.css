@@ -196,3 +196,22 @@ p {
     scale: 1;
   }
 }
+
+/* tablet */
+
+@media only screen and (min-width:600px){
+  header {
+    margin-top: -5.5%;
+  }
+  i {
+    font-size: 22pt
+  }
+  li {
+    font-size: 14pt;
+  }
+  #information {
+    font-size: 18pt;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+}
