@@ -226,3 +226,9 @@ p {
     cursor: pointer;
   }
 }
+@media only screen and (min-width:1700px) {
+  header {
+    margin-top: -3.5%;
+    max-height: 15vh;
+  }
+}
