@@ -4,7 +4,9 @@ click to access <a href="https://frabjous-churros-a13eb7.netlify.app">here</a>.
 
 Alternatively a link you can paste in https://frabjous-churros-a13eb7.netlify.app 
 
-or click to access a presentation showing the build process and design decisions <a href="">here</a>.
+or click to access a presentation showing the build process and design decisions <a href="https://youtu.be/HyOg2hTeGrI">here</a>.
+
+Alternatively a link you can paste in https://youtu.be/HyOg2hTeGrI
 
 This websites was built to:  
 
@@ -46,5 +48,7 @@ Tech stack:
  - JavaScript
  - Git
  - GitHub Pages
+
+Github Repo: https://github.com/quinnoutram/portfolioWebsite
 
 If you have any issues with the website please contact me at quinnoutram1@gmail.com
